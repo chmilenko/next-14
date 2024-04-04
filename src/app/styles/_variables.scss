@@ -1,0 +1,27 @@
+$card-width: 250px;
+$premium-border-radius: 8px;
+
+@mixin flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+@mixin grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3vh;
+  justify-items: center;
+}
+@mixin grid-tablet {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@mixin grid-phone {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+@mixin column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

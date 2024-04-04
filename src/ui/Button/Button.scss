@@ -1,0 +1,24 @@
+@import "./src/app/styles/variables";
+.button {
+  border: 1px solid #eaeaea;
+  border-radius: $premium-border-radius;
+  padding: 8px 14px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px #0000001a;
+  display: flex;
+  cursor: pointer;
+  width: 9vh;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.button:hover {
+  background-color: #e0cfcf;
+  color: #333;
+}
+
+.button:active {
+  background-color: #c2b7b7;
+  color: #333;
+}

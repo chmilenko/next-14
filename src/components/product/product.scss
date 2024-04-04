@@ -1,0 +1,48 @@
+@import "../../app/styles/main.scss";
+.product {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 20px;
+  width: 40vh;
+  height: 39vh;
+  text-align: center;
+  box-shadow: 0 4px 6px #0000001a;
+  @include column;
+  justify-content: space-between;
+  img {
+    border-radius: $premium-border-radius;
+  }
+
+  h3 {
+    color: #333;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  p {
+    color: #666;
+    margin: 5px 0;
+  }
+
+  & .price {
+    color: #ff4500;
+    font-weight: bold;
+  }
+
+  & .rating {
+    color: #2ecc71;
+  }
+
+  & .count {
+    color: #3498db;
+  }
+}
+@media screen and (max-width: 1014px) {
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
