@@ -6,7 +6,7 @@ function SetProducts() {
 
   const [itemsPerPage, setitemsPerPage] = useState(6);
   
-  const isTablet = useMediaQuery("(max-width:992px)");
+  const isTablet = useMediaQuery("(max-width:1024px)");
   const isPhone = useMediaQuery("(max-width:576px)");
 
   useEffect(() => {

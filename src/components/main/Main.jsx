@@ -30,6 +30,7 @@ function Main() {
     itemsPerPage,
     items: products,
   });
+  
   return (
     <div className="content">
       <div className="container">

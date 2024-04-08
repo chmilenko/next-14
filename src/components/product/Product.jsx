@@ -8,7 +8,7 @@ function Product({ product }) {
       <Image
         src={product.image}
         width={170}
-        height={170}
+        height={160}
         alt="Picture of the author"
       />
       <div>

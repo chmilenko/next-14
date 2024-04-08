@@ -8,7 +8,7 @@
   text-align: center;
   box-shadow: 0 4px 6px #0000001a;
   @include column;
-  justify-content: space-between;
+  // justify-content: space-between;
   img {
     border-radius: $premium-border-radius;
   }
@@ -37,12 +37,21 @@
     color: #3498db;
   }
 }
-@media screen and (max-width: 1014px) {
+@media screen and (max-width: 1199px) {
+  .product {
+    width: 33vh;
+  }
+}
+@media screen and (max-width: 681px) {
+  .product {
+    width: 27vh;
+  }
   h3 {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   p {
     font-size: 13px;
+
   }
 }
